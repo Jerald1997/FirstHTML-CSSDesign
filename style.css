@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: darkkhaki;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  height: 70px;
+  font-weight: bolder;
+}
+
+a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 23px;
+  text-underline-offset: 3px;
+  -webkit-text-stroke: 1px white;
+  font-weight: bold;
+}
+
+a:hover {
+  color: red;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar .logo {
+  margin-left: 20px;
+}
+
+.navbar li {
+  list-style: none;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+h1 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: brown;
+  font-weight: bold;
+  -webkit-text-stroke: 1px black;
+  margin-left: 10px;
+}
+
+.container {
+  height: auto;
+  background-image: url("../images/BGImage3.jpeg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.boxes-container {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  /* background-color: blanchedalmond; */
+  width: 70%;
+  flex-wrap: wrap;
+}
+
+.boxes-container li {
+  display: flex;
+  flex-basis: 300px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  background: darkgreen;
+  border-radius: 10%;
+  margin: 10px 10px;
+  font-size: large;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.boxes-container li:hover {
+  transform: scale(
+    1.1
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+footer {
+  position: relative;
+  background-color: lightgray;
+  text-align: center;
+}
+
+.image {
+  display: flex;
+  margin-left: 50px;
+  height: 200px;
+  flex-basis: 20%;
+  align-content: center;
+  justify-content: center;
+}
+
+.img-choice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.boxes-container .box1 {
+  background-image: url("../images/emoney.webp");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  box-shadow: 14px 21px 18px 0px rgba(0, 0, 0, 0.75) inset;
+  -webkit-box-shadow: 14px 21px 18px 0px rgba(0, 0, 0, 0.75) inset;
+  -moz-box-shadow: 14px 21px 18px 0px rgba(0, 0, 0, 0.75) inset;
+}
+
+.boxes-container .box2 {
+  background-image: url("../images/hand_money.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  box-shadow: 14px 21px 18px 0px rgba(0, 0, 0, 0.75) inset;
+  -webkit-box-shadow: 14px 21px 18px 0px rgba(0, 0, 0, 0.75) inset;
+  -moz-box-shadow: 14px 21px 18px 0px rgba(0, 0, 0, 0.75) inset;
+}
+
+.boxes-container .box3 {
+  background-image: url("../images/record.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  box-shadow: 14px 21px 18px 0px rgba(0, 0, 0, 0.75) inset;
+  -webkit-box-shadow: 14px 21px 18px 0px rgba(0, 0, 0, 0.75) inset;
+  -moz-box-shadow: 14px 21px 18px 0px rgba(0, 0, 0, 0.75) inset;
+}
